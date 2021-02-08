@@ -18,6 +18,8 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 
+Route::get('/api', 'App\Http\Controllers\StudentController@index');
+
 Route::get('/', function () {
     return view('/home/index');
 });
