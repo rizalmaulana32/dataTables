@@ -510,7 +510,7 @@
         // });
         $('#example').DataTable({
             'ajax': {
-                'url': 'http://127.0.0.1:8000/api',
+                'url': 'http://127.0.0.1:8000/api/data_mahasiswa',
                 'type': 'GET',
                 'dataSrc': ''
             },
